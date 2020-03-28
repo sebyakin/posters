@@ -5,13 +5,13 @@ body {
   color: #244376;
 }
 
-
 #card {
   margin: 3em auto;
   display: flex;
   flex-direction: column;
   max-width: 600px;
-    overflow: hidden;
+  overflow: hidden;
+  height: 100vh;
 }
 
 model-viewer {
