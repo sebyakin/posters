@@ -36,17 +36,26 @@
   <div id="card">
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
     
-    <model-viewer src="anim.glb"
+    <model-viewer src="poster-flat1.glb"
                   ios-src="anim.usdz"
                   alt="A 3D model of an astronaut"
                   shadow-intensity="1"
-                  camera-controls
                   autoplay
+                  camera-controls
+                  auto-rotate
                   interaction-prompt="auto"
                   ar magic-leap
-                  exposure="0.8"
+                  exposure="1.2"
+                  environment-image ="hdr.hdr"
+                  field-of-view="60deg"
+                  interaction-policy='allow-when-focused'
+                  interaction-prompt='none'
+                  shadow-intensity='100'
     </model-viewer>
         
+    <div class="bottom">
+      <p>Untitled 1</p>
+    </div>
   </div>
   
   

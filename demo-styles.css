@@ -18,6 +18,27 @@ model-viewer {
   width: 100%;
   height: 80vh;
   /* background-color: #70BCD1; */
+  --progress-bar-color: #000;
+  --progress-bar-height: 1px;
+    background-color: unset;
+}
+
+.bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.bottom>p {
+  color: black;
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .attribution {
@@ -50,6 +71,8 @@ footer {
   font-style: italic;
   line-height: 1.5em;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   model-viewer {
